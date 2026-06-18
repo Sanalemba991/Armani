@@ -251,15 +251,7 @@ export default function Navbar() {
                         </Link>
 
                         {/* CTA at the bottom of the overlay menu */}
-                        <div className="nav-link mt-12" style={{ animationDelay: '0.7s' }}>
-                            <Link
-                                onClick={() => setIsOpen(false)}
-                                href="/book"
-                                className="flex items-center gap-3 px-8 py-4 rounded-full text-lg font-bold text-white bg-orange-500 hover:bg-orange-600 transition-all duration-300 shadow-lg shadow-orange-500/30"
-                            >
-                                Book A Party <ArrowRight className="w-5 h-5" />
-                            </Link>
-                        </div>
+                       
                     </nav>
 
                     {/* Sub-details in the overlay */}

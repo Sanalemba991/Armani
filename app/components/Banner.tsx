@@ -38,12 +38,7 @@ export default function Banner() {
         <div className="mx-auto w-full max-w-7xl px-6 md:px-12 lg:px-16">
           <div className="max-w-3xl">
             {/* Overline */}
-            <div className={`flex items-center gap-4 overflow-hidden transition-all duration-1000 ease-out ${mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-              <div className="h-[1px] w-8 bg-orange-500"></div>
-              <p className="text-xs font-semibold uppercase tracking-[0.4em] text-orange-400">
-                Armaan Games &amp; Entertainment
-              </p>
-            </div>
+           
 
             {/* Main Headline */}
             <h1 className="mt-8 text-[3rem] font-light leading-[1.1] tracking-tighter sm:text-[4.5rem] md:text-[5.5rem] lg:text-[6.5rem]">
