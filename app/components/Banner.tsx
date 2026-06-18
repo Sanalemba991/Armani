@@ -19,7 +19,7 @@ export default function Banner() {
       <div 
         className={`absolute inset-0 z-0 transition-transform duration-[2000ms] ease-out ${mounted ? 'scale-100' : 'scale-105'}`}
         style={{
-          backgroundImage: "url('/sad.jpg')",
+          backgroundImage: "url('/part.png')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
